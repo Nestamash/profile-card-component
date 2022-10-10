@@ -1,0 +1,93 @@
+:root{
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --ff: 'Kumbh Sans', sans-serif;
+    --fw-heading:700;
+    --fw-stats:400;
+    --fs-stats-name:18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*center the article markup in the body using flexbox*/
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Darkcyan);
+}
+article{
+max-width: 500px;
+border-radius: .6rem;
+background-color: white;
+}
+.image-wrapper{
+    position: relative;
+    width:100%;
+    border-bottom: 1px solid var(--Dark-gray);
+    text-align: center;
+}
+.image-wrapper h1{
+    padding-bottom: .5rem;
+    padding-top: 4rem;
+   
+}
+.image-wrapper p{
+    padding-bottom: 1rem;
+}
+.image-wrapper span{
+    padding-left: .5rem;
+}
+.stats{
+   max-width:100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+  
+}
+h1{
+   
+}
+.pattern-card img {
+    border-radius: .6rem .6rem 0 0;
+    
+  }
+  .victor{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: -37px;
+    left: 40%;
+    
+  }
+  .victor img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+  }
+
+  .bg-image-top{
+    position: absolute;
+    width: 700px;
+    top: -50px;
+    left: 0;
+  }
+  .bg-image-top img{
+    width: 100%;
+    transform: rotate(50deg);
+  }
+  .bg-image-bottom{
+
+    position: absolute;
+    width: 700px;
+    bottom: -50px;
+    right: 0;
+  }
+
